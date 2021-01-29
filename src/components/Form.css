@@ -1,0 +1,174 @@
+.form {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 0.25em;
+    background-color: #fff;
+    box-shadow: 0 2px 10px -2px rgba(19, 35, 47, 0.3);
+    box-sizing: border-box;
+    padding: 1.25em;
+    overflow-x: hidden;
+}
+
+.form h1,
+.form h2,
+.form h3,
+.form h4,
+.form h5 {
+    color: #8F9BB3;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-pages {
+    width: 100%;
+}
+
+.form-page {
+    background-color: #fff;
+}
+
+.form-reset {
+    display: table;
+    width: 100%;
+}
+
+.form-reset-wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.form-tabs {
+    display: flex;
+    width: 100%;
+    border-radius: 0.25em;
+    overflow: hidden;
+    margin-bottom: 2.5em;
+}
+
+.form-tabs-item {
+    flex: 1;
+    text-align: center;
+    padding: 0.75em 1.25em;
+    background-color: #DAE1ED;
+    color: #8F9BB3;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.form-tabs-item.active {
+    background-color: #0676ED;
+    color: #fff;
+}
+
+.form-tabs-item:hover {
+    cursor: pointer;
+}
+
+.form-tabs-item:not(.active):hover {
+    background-color: #e3e6ec;
+}
+
+.form-tabs-item.active:hover {
+    background-color: #046ad8;
+}
+
+.form-link {
+    display: table;
+    margin: 0 auto;
+    color: #5191d4;
+    text-decoration: none;
+    margin-bottom: 20px;
+    transition: color .15s ease-in;
+}
+
+.form-link:hover,
+.form-link:focus {
+    color: #046ad8;
+    cursor: pointer;
+}
+
+.form hr {
+    border-top: 1px solid #DAE1ED;
+    margin-left: -1.25em;
+    margin-right: -1.25em;
+    margin-bottom: 1.25em;
+}
+
+.form .form-button {
+    padding: 0.5em 1.25em;
+    border-radius: 1em;
+    border: none;
+    box-shadow: 4px 6px 6px 0 rgba(11, 27, 102, 0.18);
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 600;
+    width: 100%;
+    text-overflow: ellipsis;
+}
+
+.form .form-button:focus {
+    outline: none;
+}
+
+.form .form-button:hover {
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #0676ED;
+}
+
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: #046ad8;
+}
+
+.btn-primary:disabled {
+    background-color: #5191d4;
+}
+
+.input-wrap {
+    width: 100%;
+    margin-bottom: 1.25em;
+}
+
+.input-wrap label {
+    display: table;
+    margin-bottom: 0.25em;
+    color: #8F9BB3;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.input-wrap input[type="text"],
+.input-wrap input[type="email"],
+.input-wrap input[type="password"] {
+    width: 100%;
+    padding: 0.75em 0.5em;
+    border: 1px solid #DAE1ED;
+    border-radius: 0.25em;
+    box-sizing: border-box;
+    color: #000;
+    font-size: 1em;
+
+    transition: border-color .15s ease-in;
+}
+
+.input-wrap input[type="text"]:focus,
+.input-wrap input[type="email"]:focus,
+.input-wrap input[type="password"]:focus {
+    outline: none;
+    border-color: #0676ED;
+}
+
+.input-wrap input[type="text"]:invalid,
+.input-wrap input[type="email"]:invalid,
+.input-wrap input[type="password"]:invalid {
+    outline: none;
+    border-color: #FA5D5D;
+}
